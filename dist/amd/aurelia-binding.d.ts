@@ -417,4 +417,8 @@ declare module 'aurelia-binding' {
   * @param targetOrConfig The name of the property, or a configuration object.
   */
   export function observable(targetOrConfig?: Object, key?: any, descriptor?: any): any;
+  
+  export class Lexer {}
+  
+  export class ParserImplementation {}
 }
